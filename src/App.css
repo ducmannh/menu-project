@@ -1,0 +1,31 @@
+.menu {
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    display: flex;
+}
+
+.menu-electronic, .menu-cars {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    font-size: 30px;
+}
+
+.menu-electronic-item, .menu-cars {
+    margin-left: 20px;
+}
+
+.menu-laptop, .menu-mobile, .menu-accessories, .menu-cars-SUV {
+    color: red;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.electronic {
+    width: 700px;
+}
+.headphone-item{
+    display: flex;
+    justify-content: space-between;
+}
+
